@@ -2,7 +2,7 @@
 
 
 **- 📦 SQL-Project**
-- ├── 📁 Data
+**├── 📁 Data**
 - │   └── Raw and cleaned datasets
 - ├── 📁 Scripts
 - │   ├── Queries.sql
