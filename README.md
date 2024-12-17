@@ -1,7 +1,7 @@
 # SQL-Projects
 
 
-**- 📦 SQL-Project**
+**📦 SQL-Project**
 
 ├── 📁 Data
 
