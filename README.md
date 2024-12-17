@@ -1,4 +1,4 @@
-# SQL-Projects
+#SQL Projects
 
 Welcome to my **SQL Projects** repository! This repository demonstrates my expertise in SQL through a variety of projects that tackle real-world data challenges, including performance optimization, data cleaning, advanced querying, and analytics.
 
@@ -15,7 +15,7 @@ Welcome to my **SQL Projects** repository! This repository demonstrates my exper
 │   └── Insights and visualizations
 └── README.md
 ```
-- [📚 Featured Projects](#featured-projects)
+### [📚 Featured Projects](#featured-projects)
 
 ### [SQL Query Performance Best Practices](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/30%20SQL%20Tips%20and%20Tricks.sql) 
 **[Link to Project](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/30%20SQL%20Tips%20and%20Tricks.sql)**
