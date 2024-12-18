@@ -370,10 +370,19 @@ Outcome: Provided valuable insights into gender distribution, departmental trend
 - Database and Table Creation: It sets up the necessary tables (driver, ingredients, rolls, etc.) and populates them with sample data to support the analysis.
 - Order Success Rate: By filtering out canceled orders, the script provides a clear view of successful deliveries, which is critical for assessing overall service reliability.
 - Customer Preferences and Customization: Analyzes data on items not included or extra items requested in orders, offering insights into customer preferences for roll customization.
+- 
 
 
+ ### [Data Cleaning and Transformation on NashvilleHouse Table](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/Clean%20Date.sql)
+
+I have performed several data cleaning and transformation tasks on the NashvilleHouse table. First, I standardized the SaleDate format and added a new column, SaleDateconverted, to store the converted date values. Missing PropertyAddress values were filled by joining the table on ParcelID. I also split the PropertyAddress and OwnerAddress columns into separate components such as Address, City, and State, creating new columns for each. Additionally, I updated the SoldAsVacant column by converting 'y'/'n' to 'yes'/'no'. Duplicate rows based on key columns were removed using a ROW_NUMBER() function. Lastly, I dropped unnecessary columns like OwnerAddress, TaxDistrict, and SaleDate to optimize the table.
 
 
+---
+
+### [COVID Data Analysis: Key Insights and Transformations](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/COVID2019.sql)
+
+I performed a detailed analysis of COVID-19 data by transforming the total_deaths and total_cases columns into integer types, calculated the percentage of the population infected, and identified countries and continents with the highest infection and death rates relative to population. Additionally, I aggregated global COVID-19 data, including total cases and deaths, and examined the relationship between population and vaccinations by joining the CovidDeaths and CovidVaccinations tables. I also calculated the vaccination rate for each location and created a view to store vaccination data for future visualizations.
 
 
 
