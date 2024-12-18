@@ -1,4 +1,4 @@
-#SQL Projects
+
 
 Welcome to my **SQL Projects** repository! This repository demonstrates my expertise in SQL through a variety of projects that tackle real-world data challenges, including performance optimization, data cleaning, advanced querying, and analytics.
 
