@@ -41,7 +41,8 @@ Welcome to my **SQL Projects** repository! This repository demonstrates my exper
 - Use Appropriate Data Types: Avoid TEXT and VARCHAR(MAX) when smaller sizes suffice.
 - Limit Data Type Sizes: Use precise lengths for VARCHAR and other data types.
 
-
+----
+ 
 ### [SQL Value Window Functions | LEAD, LAG, FIRST_VALUE, LAST_VALUE](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/SQL%20Value%20Window%20Functions.sql)
 
 
@@ -52,9 +53,7 @@ Welcome to my **SQL Projects** repository! This repository demonstrates my exper
 - use case compare to Extermes How well a value is performing relative to the extremes
 
 
-
-
-
+----
 
 
 
@@ -85,7 +84,8 @@ These queries aim to perform various analyses such as calculating totals, averag
 
 
 
-
+----
+ 
 
 
 
@@ -121,7 +121,8 @@ These queries aim to perform various analyses such as calculating totals, averag
 
 
 
-
+----
+ 
   
 
 
@@ -138,7 +139,8 @@ These queries aim to perform various analyses such as calculating totals, averag
 
 
 
-
+----
+ 
 
 
 
@@ -184,7 +186,8 @@ Explores join algorithms (Nested Loops, Hash Match, Merge Join) with guidance on
 
 
 
-
+----
+ 
 
 
 
@@ -204,7 +207,8 @@ Explores join algorithms (Nested Loops, Hash Match, Merge Join) with guidance on
 
 
 
-
+----
+ 
 
 
 ### [Handle Nulls with Null Function](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/Null%20Function.sql)
@@ -222,7 +226,8 @@ Explores join algorithms (Nested Loops, Hash Match, Merge Join) with guidance on
 
 
 
-
+----
+ 
 
 
 
@@ -243,7 +248,8 @@ Explores join algorithms (Nested Loops, Hash Match, Merge Join) with guidance on
 
 
 
-
+----
+ 
   
 
 
@@ -256,7 +262,8 @@ Explores join algorithms (Nested Loops, Hash Match, Merge Join) with guidance on
 
 
 
-
+----
+ 
 
 
 ### [Using Partition Function](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/Partition%20Function.sql)
@@ -277,7 +284,8 @@ This project showcases my ability to implement table partitioning in SQL Server 
 
 
 
-
+----
+ 
 
 
 
@@ -296,7 +304,8 @@ This project showcases my ability to implement table partitioning in SQL Server 
   
 
 
-
+----
+ 
 
 
 
@@ -321,7 +330,8 @@ This project showcases my ability to implement table partitioning in SQL Server 
 
 
 
-
+----
+ 
 
 
 
@@ -353,7 +363,8 @@ Outcome: Provided valuable insights into gender distribution, departmental trend
 
 
 
-
+----
+ 
 
 
 ### [This SQL script focuses on generating key insights and KPIs for a food delivery system ](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/Food.sql) | [Link to Project](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/Food.sql)
