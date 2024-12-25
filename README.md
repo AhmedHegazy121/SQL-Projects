@@ -65,26 +65,62 @@ EXEC GetCustomerSummary @Country = 'USA';
 ### [SQL Query Performance Best Practices](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/30%20SQL%20Tips%20and%20Tricks.sql) 
 **[Link to Project](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/30%20SQL%20Tips%20and%20Tricks.sql)**
 
-- Select Only Needed Columns: Avoid SELECT * and specify columns explicitly.
-- Minimize DISTINCT and ORDER BY Usage: Use them only when necessary.
-- Limit Rows for Exploration: Use TOP or LIMIT to restrict the number of rows retrieved.
-- Index Frequently Used Columns: Create nonclustered indexes for columns used in WHERE clauses.
-- Avoid Functions on Columns in Filters: Use alternatives like LIKE, BETWEEN, or raw comparisons.
-- Avoid Leading Wildcards: Use patterns like 'prefix%' instead of '%pattern%'.
-- Use IN for Multiple Conditions: Replace OR with IN for better readability and performance.
-- Prefer Inner Joins: They generally perform faster than outer joins.
-- Use Explicit Joins: ANSI joins (INNER JOIN) are preferred over implicit joins.
-- Index Join Columns: Ensure columns in ON clauses are indexed.
-- Filter Early: Apply filters before joining or during the join process.
-- Aggregate Before Joining Large Tables: Pre-aggregate data to reduce the rows processed in joins.
-- Use UNION ALL Instead of UNION: If duplicates are acceptable, opt for UNION ALL.
-- Optimize Nested Loops: Use SQL hints like OPTION (HASH JOIN) for large and small table joins.
-- Use Columnstore Indexes for Aggregation: They enhance performance for large datasets.
-- Pre-Aggregate for Reporting: Store summarized data in separate tables for faster queries.
-- Choose JOIN or EXISTS Over IN: Use EXISTS for large tables to avoid redundant row processing.
-- Avoid Redundant Logic: Simplify queries using CASE and window functions where applicable.
-- Use Appropriate Data Types: Avoid TEXT and VARCHAR(MAX) when smaller sizes suffice.
-- Limit Data Type Sizes: Use precise lengths for VARCHAR and other data types.
+This guide provides best practices for optimizing SQL queries to improve performance, readability, and maintainability. 
+
+## Best Practices
+
+### 1. Column Selection
+- **Avoid `SELECT *`:** Specify the columns explicitly to minimize unnecessary data retrieval.
+
+### 2. Minimize Expensive Operations
+- **Reduce `DISTINCT` and `ORDER BY` Usage:** Use only when absolutely necessary as they can impact performance.
+- **Limit Rows for Exploration:** Use `TOP` (SQL Server) or `LIMIT` (MySQL/PostgreSQL) to retrieve a subset of rows for debugging or exploration.
+
+### 3. Indexing
+- **Index Frequently Used Columns:** Create nonclustered indexes for columns often used in `WHERE` clauses.
+- **Index Join Columns:** Ensure columns in `ON` clauses are indexed for faster joins.
+
+### 4. Efficient Filtering
+- **Avoid Functions on Columns in Filters:** Use raw comparisons or patterns like `LIKE`, `BETWEEN`, or direct operators to prevent performance hits.
+- **Avoid Leading Wildcards:** Use patterns like `'prefix%'` instead of `'%pattern%'` to leverage indexes.
+- **Filter Early:** Apply filters as soon as possible to reduce the number of rows processed in subsequent steps.
+
+### 5. Query Structure
+- **Use `IN` for Multiple Conditions:** Replace multiple `OR` conditions with `IN` for better readability and performance.
+- **Prefer Inner Joins:** They generally perform faster than outer joins.
+- **Use Explicit Joins:** Prefer ANSI-style joins (`INNER JOIN`, `LEFT JOIN`) over implicit joins for clarity and better optimization.
+
+### 6. Join Optimization
+- **Aggregate Before Joining Large Tables:** Pre-aggregate data to reduce rows processed in joins.
+- **Optimize Nested Loops:** Use SQL hints like `OPTION (HASH JOIN)` in SQL Server for large-to-small table joins.
+
+### 7. Query Simplification
+- **Use UNION ALL Instead of UNION:** If duplicates are acceptable, choose `UNION ALL` for better performance.
+- **Choose JOIN or EXISTS Over IN:** Use `EXISTS` for large tables to avoid redundant row processing.
+- **Avoid Redundant Logic:** Simplify queries using `CASE` statements and window functions.
+
+### 8. Data Types
+- **Use Appropriate Data Types:** Avoid using `TEXT` and `VARCHAR(MAX)` when smaller sizes suffice.
+- **Limit Data Type Sizes:** Use precise lengths for `VARCHAR` and other data types to conserve memory and storage.
+
+### 9. Performance Enhancements
+- **Use Columnstore Indexes for Aggregation:** They significantly enhance performance for large datasets.
+- **Pre-Aggregate for Reporting:** Store summarized data in separate tables for faster query execution.
+
+## Example
+
+-- Avoid SELECT *
+SELECT first_name, last_name, email
+FROM customers
+WHERE country = 'USA';
+
+-- Use Indexed Columns
+CREATE NONCLUSTERED INDEX idx_customers_country ON customers (country);
+
+-- Use UNION ALL Instead of UNION
+SELECT product_name FROM products_a
+UNION ALL
+SELECT product_name FROM products_b;
 
 ----
  
