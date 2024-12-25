@@ -17,6 +17,51 @@ Welcome to my **SQL Projects** repository! This repository demonstrates my exper
 ```
 ### [📚 Featured Projects](#featured-projects)
 
+
+### [SQL Stored Procedure: Customer Summary](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/SQL%20Stored%20Procedure.sql)
+
+
+## Overview
+This script provides a stored procedure to calculate customer statistics and sales data for a specified country, with additional features for data cleanup and error handling.
+
+## Features
+1. **Core Functionality**
+   - Calculates the total number of customers and their average score for a specified country.
+   - Allows dynamic country selection using parameters (`@Country`), with a default value set to `'USA'`.
+
+2. **Data Cleanup**
+   - Updates null scores in the `Score` column to `0` for accurate aggregations.
+
+3. **Advanced Features**
+   - Performs multiple operations, including aggregating customer data and calculating total orders and sales.
+   - Utilizes variables to store intermediate results for enhanced output control.
+   - Implements control flow (`IF EXISTS`) to handle conditional data processing.
+
+4. **Error Handling**
+   - Uses `TRY...CATCH` blocks to gracefully handle errors.
+   - Provides detailed error messages, including the error number, message, line, and procedure name.
+
+5. **Execution Flexibility**
+   - Accepts an optional parameter for the country name:
+     ```sql
+     EXEC GetCustomerSummary; -- Default country: USA
+     EXEC GetCustomerSummary @Country = 'Germany'; -- Specify another country
+     ```
+
+6. **Best Practices**
+   - Avoids code repetition by using parameters and dynamic inputs.
+   - Ensures robust handling of null values and potential errors.
+
+## Usage Examples
+
+-- Execute the procedure with the default country
+EXEC GetCustomerSummary;
+
+-- Execute the procedure for a specific country
+EXEC GetCustomerSummary @Country = 'Germany';
+EXEC GetCustomerSummary @Country = 'USA';
+
+
 ### [SQL Query Performance Best Practices](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/30%20SQL%20Tips%20and%20Tricks.sql) 
 **[Link to Project](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/30%20SQL%20Tips%20and%20Tricks.sql)**
 
