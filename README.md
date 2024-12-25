@@ -127,12 +127,17 @@ SELECT product_name FROM products_b;
 ### [SQL Value Window Functions | LEAD, LAG, FIRST_VALUE, LAST_VALUE](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/SQL%20Value%20Window%20Functions.sql)
 
 
-**Tasks :**
-- Analyze the month-over-month (MoM) performonce by finding the percentage change in sales between the current and previous month.
-- Anaylze customer loyalty by ranking customers based on the average number of days between  orders
-- Find the  lowest and highest sales for each product
-- use case compare to Extermes How well a value is performing relative to the extremes
+## 1. Analyze Month-over-Month (MoM) Performance
+- Find the percentage change in sales between the current and previous month.
 
+## 2. Analyze Customer Loyalty
+- Rank customers based on the average number of days between orders.
+
+## 3. Find Lowest and Highest Sales
+- Determine the lowest and highest sales for each product.
+
+## 4. Compare to Extremes
+- Assess how well a value is performing relative to the extremes.
 
 ----
 
@@ -142,25 +147,33 @@ SELECT product_name FROM products_b;
 
 These queries aim to perform various analyses such as calculating totals, averages, rankings, and detecting duplicates or deviations, making them valuable tools for data analysis and reporting.
 
-**Insight**
 
+# Insights
+
+## Sales Analysis
 - Find the total sales across all orders and by each product. Additionally, provide details such as order ID, order date, and sales.
 - Rank each order based on their sales from highest to lowest, and provide details such as order ID and order date.
 - Calculate the total sales using a sliding window of two following rows after the current row, and provide details such as order ID, order date, and sales.
 - Calculate the total sales using a sliding window of two preceding rows before the current row, and provide details such as order ID, order date, and sales.
-- Rank customers based on their total sales.
-- Find the total number of orders and the total number of orders for each customer. Additionally, provide details such as order ID and order date.
-- Check for null values by finding the total number of customers and the total number of scores for the customers. Additionally, provide all details of customers.
-- Check whether the table Orders contains any duplicate rows by counting the primary key.
 - Find the total sales across all orders and the total sales for each product. Additionally, provide details such as order ID and order date.
 - Find the percentage contribution of each product's sales to the total sales.
 - Find the average sales across all orders and the average sales for each product. Additionally, provide details such as order ID and order date.
-- Find the average scores of customers. Additionally, provide details such as customer ID and last name.
 - Find all orders where sales are higher than the average sales across all orders.
 - Find the highest and lowest sales across all orders and for each product. Additionally, provide details such as order ID and order date.
 - Calculate the deviation of each sale from both the minimum and maximum sales amounts.
-- Show the employees who have the highest salaries.
 - Calculate the moving average of sales for each product over time, including only the next order.
+
+## Customer Analysis
+- Rank customers based on their total sales.
+- Find the total number of orders and the total number of orders for each customer. Additionally, provide details such as order ID and order date.
+- Find the average scores of customers. Additionally, provide details such as customer ID and last name.
+
+## Data Quality Checks
+- Check for null values by finding the total number of customers and the total number of scores for the customers. Additionally, provide all details of customers.
+- Check whether the table `Orders` contains any duplicate rows by counting the primary key.
+
+## Employee Analysis
+- Show the employees who have the highest salaries.
 
 
 
