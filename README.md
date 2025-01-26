@@ -17,9 +17,14 @@ Welcome to my **SQL Projects** repository! This repository demonstrates my exper
 ```
 ### [📚 Featured Projects](#featured-projects)
 
+
+
+
+
+
 ### [🚀 Streamlining Restaurant Data Management with SQL](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/Rs)
 
-### 🚀 Key Features  
+#### 🚀 Key Features  
 
 ### 1️⃣ **Customer Relationship Management**  
 - 📝 Registered customers for the loyalty program.  
