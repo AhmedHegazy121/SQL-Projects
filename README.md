@@ -22,7 +22,8 @@ Welcome to my **SQL Projects** repository! This repository demonstrates my exper
 
 
 
-### [🚀 Streamlining Restaurant Data Management with SQL](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/Rs)
+### [🚀 Streamlining Restaurant Data Management with SQL](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/Rs)  [Video](https://www.linkedin.com/posts/hegazy-ahmed_sql-dataanalytics-databasemanagement-ugcPost-7289398322123972608-ENXp?utm_source=share&utm_medium=member_desktop)
+
 
 #### 🚀 Key Features  
 
