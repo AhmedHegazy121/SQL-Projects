@@ -17,6 +17,61 @@ Welcome to my **SQL Projects** repository! This repository demonstrates my exper
 ```
 ### [📚 Featured Projects](#featured-projects)
 
+### [🚀 Streamlining Restaurant Data Management with SQL] (https://github.com/AhmedHegazy121/portfolioProjects/blob/main/Rs)
+
+### 🚀 Key Features  
+
+### 1️⃣ **Customer Relationship Management**  
+- 📝 Registered customers for the loyalty program.  
+- 🔄 Updated and managed customer profiles seamlessly.  
+- 🎉 Automated RSVP tracking for special events like anniversaries.  
+
+### 2️⃣ **Menu and Ordering Insights**  
+- 📊 Created detailed reports of menu items categorized and sorted by price.  
+- 🛒 Tracked delivery orders with total cost calculations.  
+
+### 3️⃣ **Reservation Optimization**  
+- 📅 Simplified reservation management, including last-minute changes or cancellations.  
+
+### 4️⃣ **Engaging Top Customers**  
+- 🎁 Identified frequent delivery customers for targeted promotional campaigns.  
+
+### 5️⃣ **Customization & Favorites**  
+- ❤️ Captured customer preferences (e.g., favorite dishes) for personalized dining experiences.  
+
+
+## 💡 Insights  
+
+### 🔑 What I Learned  
+- Efficient **data management** in SQL.  
+- Building **scalable solutions** for real-world scenarios.  
+- Extracting **actionable insights** to drive decision-making.  
+
+### 📈 Results  
+- Enhanced operational workflows.  
+- Improved customer satisfaction through personalization.  
+- Data-driven strategies for targeted marketing campaigns.  
+
+
+
+### 🛠️ Technologies Used  
+
+- **SQL**: Query optimization, data manipulation, and reporting.  
+- **Database Management**: Tables, joins, and updates for seamless data operations.  
+- **Analytical Insights**: Aggregations, filters, and ranking for actionable reports.  
+
+
+
+### 🎯 How to Use  
+1. Clone the repository.  
+2. Import the SQL scripts into your database system.  
+3. Explore the reports and adapt them to your restaurant's needs.  
+
+### This project is part of my portfolio, demonstrating my:  
+- 💾 Expertise in database management.  
+- 🔍 Attention to detail in query optimization.  
+- 📊 Ability to deliver meaningful insights for the food service industry.  
+
 
 ### [SQL Stored Procedure: Customer Summary](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/SQL%20Stored%20Procedure.sql)
 
