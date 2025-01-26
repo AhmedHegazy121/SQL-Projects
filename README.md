@@ -18,7 +18,7 @@ Welcome to my **SQL Projects** repository! This repository demonstrates my exper
 ### [📚 Featured Projects](#featured-projects)
 
 
-
+----
 
 
 
@@ -45,21 +45,21 @@ Welcome to my **SQL Projects** repository! This repository demonstrates my exper
 - ❤️ Captured customer preferences (e.g., favorite dishes) for personalized dining experiences.  
 
 
-## 💡 Insights  
+####💡 Insights  
 
-### 🔑 What I Learned  
+####🔑 What I Learned  
 - Efficient **data management** in SQL.  
 - Building **scalable solutions** for real-world scenarios.  
 - Extracting **actionable insights** to drive decision-making.  
 
-### 📈 Results  
+#### 📈 Results  
 - Enhanced operational workflows.  
 - Improved customer satisfaction through personalization.  
 - Data-driven strategies for targeted marketing campaigns.  
 
 
 
-### 🛠️ Technologies Used  
+#### 🛠️ Technologies Used  
 
 - **SQL**: Query optimization, data manipulation, and reporting.  
 - **Database Management**: Tables, joins, and updates for seamless data operations.  
@@ -77,7 +77,7 @@ Welcome to my **SQL Projects** repository! This repository demonstrates my exper
 - 🔍 Attention to detail in query optimization.  
 - 📊 Ability to deliver meaningful insights for the food service industry.  
 
-
+----
 ### [SQL Stored Procedure: Customer Summary](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/SQL%20Stored%20Procedure.sql)
 
 
