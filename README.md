@@ -40,7 +40,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
----
+
 
 ### **BI: Analytics & Reporting (Data Analytics)**
 
@@ -50,6 +50,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Product Performance**
 - **Sales Trends**
 
+----
 
 ### [Level Up: SQL Challenges](https://github.com/AhmedHegazy121/SQL-Projects/commit/f6747074d03bc151af923a2058beb5e6be0d9304)
 
@@ -59,29 +60,26 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Data Management:** Inserted, updated, and queried data while maintaining integrity.
 - **Reporting and Analytics:** Created insightful reports to analyze library usage and trends.
 
----
+
 
 ### **Tools Used**
 - **GitHub Codespaces:** A cloud-based development environment for seamless SQL practice.
 - **SQL:** For database management and querying.
 
----
+
 
 ### **How to Use This Repository**
 1. Clone the repository.
 2. Open the SQL files in your preferred SQL editor or GitHub Codespaces.
 3. Run the queries against your database to see the results.
 
----
 
 ### **License**
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-Happy querying! 🚀
 
-This repository contains my solutions to the **Level Up: SQL** course challenges. These challenges focused on real-world scenarios, such as managing a library database, tracking book loans, and generating reports. Below are the key tasks I completed, along with insights and SQL queries.
 
 
 ### [🚀 Streamlining Restaurant Data Management with SQL](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/Rs) | [Video](https://www.linkedin.com/posts/hegazy-ahmed_sql-dataanalytics-databasemanagement-ugcPost-7289398322123972608-ENXp?utm_source=share&utm_medium=member_desktop)
@@ -141,6 +139,7 @@ This repository contains my solutions to the **Level Up: SQL** course challenges
 - 📊 Ability to deliver meaningful insights for the food service industry.  
 
 ----
+
 ### [SQL Stored Procedure: Customer Summary](https://github.com/AhmedHegazy121/portfolioProjects/blob/main/SQL%20Stored%20Procedure.sql)
 
 
